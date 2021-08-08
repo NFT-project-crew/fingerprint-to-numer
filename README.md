@@ -1,2 +1,2 @@
 # fingerprint-to-numer
-code example of fingerprint to number
+code example of fingerprint to number transform

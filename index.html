@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>NFT fingerprint converter</title>
+  </head>
+  <style>
+.container{
+    display:flex;
+width: max-content;
+margin:auto;
+margin-top: 64px;
+align-items: center;
+flex-direction: column;
+}
+
+.alert{
+
+margin-bottom: 64px;
+}
+
+.resultsCSS{
+
+  text-align: center;
+  margin-top: 8px;
+}
+  </style>
+  <body>
+ <div class="container"> <div> insert the part of the fingerprint for a number calculation</div>
+<input class="inputString" onkeypress="handle(event)"  type="text"></input>
+<div class="buttons">
+
+    <button onclick="calculation()" id="calculate">Calculate</button>
+</div>
+</div><div class="alert resultsCSS">b,i and o are never present in the fingerprint</div>
+<div class="number resultsCSS"></div>
+<div class="minMax resultsCSS"></div>
+
+<script src = "./converterScript.js"></script>
+  </body>
+</html>
